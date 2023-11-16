@@ -1,0 +1,105 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.bg{
+    position: absolute;
+    top: 8rem;
+    right: 5rem;
+    object-fit: cover;
+    z-index: -1;
+    height: 75vh;
+    object-fit: cover;
+    
+}
+.introContent{
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+    font-family:  'Poppins', sans-serif;
+
+}
+.introName{
+   color:  rgb(238, 45, 35);;
+   font-family:  'Poppins', sans-serif;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 100;
+    font-family:  'Poppins', sans-serif;
+
+}
+.btn{
+    background: rgb(238, 45, 35);
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+#btnImg{
+object-fit: cover;
+margin: 0 0.25rem;
+height: 1rem;
+}
+
+@media screen and (max-width:900px){
+     .bg{
+        right: 5px;
+     }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+        color: aliceblue;
+    }
+    .introPara{
+        width: 60vw;
+            color: rgb(202, 193, 193);
+    
+       
+    }
+    .hello{
+        color: black;
+        font-weight: 500;
+    }
+    .introName{
+        color: rgb(227, 154, 154);
+    }
+    .introPara{
+        font-weight: 500;
+    }
+}
+@media screen and (max-width:527px){
+    .bg{
+      right: 5px;
+      
+    }
+    .introContent{
+        font-size: 10vw;
+        color: rgb(153, 153, 153);
+    }
+    .hello{
+        font-size: 6.5vw;
+        color: rgb(224, 215, 215);
+
+    }
+    
+    
+    
+    
+}
