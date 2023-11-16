@@ -90,7 +90,7 @@ height: 1rem;
       
     }
     .introContent{
-        font-size: 10vw;
+        font-size: 30px;
         color: rgb(153, 153, 153);
     }
     .hello{
@@ -98,8 +98,7 @@ height: 1rem;
         color: rgb(224, 215, 215);
 
     }
-    
-    
-    
-    
+    .introName{
+        font-size: 30px;
+    }
 }
